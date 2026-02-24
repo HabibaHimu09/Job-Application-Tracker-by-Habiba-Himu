@@ -2,7 +2,8 @@
 Programming hero assignment #4
 
 Answers to Questions
-1. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
+
+**1. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?**
 
   getElementById("id") is used to find an element by specific id from the HTML code. It used to find one element only. 
 
@@ -12,7 +13,9 @@ Answers to Questions
 
   querySelectorAll("selector") is used tio select all selector matched. It also provide a list to select from. 
 
-2. How do you create and insert a new element into the DOM?
+  
+
+**2. How do you create and insert a new element into the DOM?**
  
 This is the way to create a new element to DOM:
 let newElement = document.createElement("div");
@@ -23,7 +26,9 @@ newElement.innerText = "Example Text";
 This is the way to add to the DOM of the HTML
 document.body.appendChild(newElement);
 
-3. What is Event Bubbling? And how does it work?
+
+
+**3. What is Event Bubbling? And how does it work?**
 Event bubbling is a process how the event happened with child element affect the parent elements. 
 
 the following is an example:
@@ -40,7 +45,9 @@ the following is an example:
 
  if the button is pressed, this will first affect the chilc button, then the parent div, then the body and finally HTML.  
 
-4. What is Event Delegation in JavaScript? Why is it useful?
+ 
+
+**4. What is Event Delegation in JavaScript? Why is it useful?**
 
 Delegation is a complex process of Javascript. An event listener is set to patrent element, it can control the event of child element. 
 
@@ -53,7 +60,9 @@ document.getElementById("parent").addEventListener("click", function(e){
    }
 });
 
-5. What is the difference between preventDefault() and stopPropagation() methods?
+
+
+**5. What is the difference between preventDefault() and stopPropagation() methods?**
 
 preventDefault()
 It prevents browser defaults. For example: when submit button pressed on form it automatically prevents page reload with the following code:
