@@ -53,7 +53,7 @@ document.getElementById("parent").addEventListener("click", function(e){
    }
 });
 
-4. What is the difference between preventDefault() and stopPropagation() methods?
+5. What is the difference between preventDefault() and stopPropagation() methods?
 
 preventDefault()
 It prevents browser defaults. For example: when submit button pressed on form it automatically prevents page reload with the following code:
