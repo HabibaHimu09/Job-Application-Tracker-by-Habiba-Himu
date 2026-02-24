@@ -32,6 +32,7 @@ document.body.appendChild(newElement);
 Event bubbling is a process how the event happened with child element affect the parent elements. 
 
 the following is an example:
+```
 <HTML>
   ......
   
@@ -42,7 +43,7 @@ the following is an example:
   </body>
 
  </HTML>
-
+```
  if the button is pressed, this will first affect the chilc button, then the parent div, then the body and finally HTML.  
 
  
